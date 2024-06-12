@@ -25,9 +25,10 @@
             <td><button id="truncar" class="boton">Solo el entero</button></td>
         </tr>
         </table>
-
-
         <p id="salida"></p>
+        <form>
+
+        </form>
 
 
     </div>
