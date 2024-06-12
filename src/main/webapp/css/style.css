@@ -1,0 +1,76 @@
+*{
+    font-family: "Calibri Light";
+}
+.rojo{
+    color:darkred;
+}
+.boton{
+    padding: 15px 30px;
+    color: black;
+}
+.boton.derecha{
+    background-color: darkred;
+}
+.error{
+    color: darkred;
+    font-size: 10px;
+    font-style: italic;
+}
+.errorInput{
+    border:2px solid darkred;
+}
+.validoInput {
+    border: 2px solid darkgreen;
+}
+.boton.izquierda{
+    background-color: darkgreen;
+}
+.boton:hover{
+    background-color: white;
+    border: 1px solid black;
+    color:black;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#registroForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+}
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.form-group label {
+    flex: 1;
+    min-width: 150px;
+}
+.form-group input {
+    flex: 2;
+    padding: 5px;
+}
+form {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.derecha{
+    float: right;
+}
+.izquierda{
+    float: left;
+}
+.borrarFloat{
+    clear: both;
+}
